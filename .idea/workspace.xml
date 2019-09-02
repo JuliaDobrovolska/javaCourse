@@ -2,51 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="255cbeed-f38e-480c-ae42-e7f8f09bbca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATM_HomeTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/ATM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/CardReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/Cassette.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/JavaApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/PinCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/Printable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/Printer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/card/Card.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/card/CardChip.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/card/CardChipPrivatBank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/card/CardMagnet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/card/CardMagnetPrivatBank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/card/CardNFC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/card/CardNFCPrivatBank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/card/CardPrivatBank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/Currency.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/CurrencyPrivatBank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/Dollar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/Hryvnia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/Rubles.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cassette.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/CardChip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/CardChipPrivatBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/CardMagnet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/CardMagnetPrivatBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/CardNFC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/CardNFCPrivatBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/CardPrivatBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/currency/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/currency/CurrencyPrivatBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/currency/Dollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/currency/Hryvnia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/currency/Rubles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATM_HomeTask/Cassette.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/Cassette.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATM_HomeTask/JavaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ATM_HomeTask/JavaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/Currency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/CurrencyPrivatBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/Dollar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/Hryvnia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ATM_HomeTask/currency/Rubles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cassette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cassette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currency/Currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currency/CurrencyPrivatBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currency/Dollar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currency/Hryvnia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currency/Rubles.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -69,7 +40,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PmUc5bFPeWacB4wVZ0ucNPB4WF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -125,7 +98,7 @@
       <workItem from="1566906417106" duration="860000" />
       <workItem from="1566907822286" duration="2008000" />
       <workItem from="1567013239867" duration="12904000" />
-      <workItem from="1567060240412" duration="627000" />
+      <workItem from="1567060240412" duration="6921000" />
     </task>
     <servers />
   </component>

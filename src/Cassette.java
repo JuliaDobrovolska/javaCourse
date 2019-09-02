@@ -1,25 +1,23 @@
-import currency.Currency;
-
 import java.util.Arrays;
 
 
 public class Cassette {
-    private Currency currency;
+    private Currencies currency;
     private int amountAvailableMoney;
     private int[] nominal;
 
-    public Cassette(Currency currency, int amountAvailableMoney, int[] nominal) {
+    public Cassette(Currencies currency, int amountAvailableMoney, int[] nominal) {
         this.currency = currency;
         this.amountAvailableMoney = amountAvailableMoney;
         this.nominal = nominal;
     }
 
 
-    public Currency getCurrency() {
+    public Currencies getCurrency() {
         return currency;
     }
 
-    public void setCurrency(Currency currency) {
+    public void setCurrency(Currencies currency) {
         this.currency = currency;
     }
 

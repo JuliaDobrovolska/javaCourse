@@ -1,7 +1,3 @@
-import currency.Dollar;
-import currency.Hryvnia;
-import currency.Rubles;
-
 public class JavaApplication {
     public static void main(String[] args) {
 
@@ -10,16 +6,32 @@ public class JavaApplication {
         //компактная запись создания объектов и заполнения полей через конструкторы
         int[] nominalUSD = new int[]{1, 2, 5, 10, 20, 50, 100};
         int[] nominalUAH = new int[]{1, 2, 5, 10, 20, 50, 100, 200, 500};
-        int[] nominalRUR = new int[]{5, 10, 20, 50, 100, 200, 500, 1000, 2000};
-        cassettes[0] = new Cassette(new Dollar("USD"), 1000, nominalUSD);
-        cassettes[1] = new Cassette(new Hryvnia("UAH"), 10000, nominalUAH);
-        cassettes[2] = new Cassette(new Rubles("RUR"), 10000, nominalRUR);
+        int[] nominalRUB = new int[]{5, 10, 20, 50, 100, 200, 500, 1000, 2000};
+
+        Currencies dollar = Currencies.DOLLAR;
+        System.out.println(dollar.getAbbreviation() instanceof String);
+
+        cassettes[0] = new Cassette(Currencies.DOLLAR, 1000, nominalUSD);
+        cassettes[1] = new Cassette(Currencies.HRYVNIA, 10000, nominalUAH);
+        cassettes[2] = new Cassette(Currencies.RUBLES, 10000, nominalRUB);
+
+
+
+
+
 
         ATM atm = new ATM(cassettes);
 
-        atm.getCassette()[0].getMoney(835);
-        atm.getCassette()[1].getMoney(3945);
-        atm.getCassette()[2].getMoney(5634);
+        atm.getCassette()[0].getMoney(335);
+        atm.getCassette()[1].getMoney(45);
+        atm.getCassette()[2].getMoney(34);
+
+
+        System.out.println("--------------------------------------");
+        ScreenATM screenATM = new ScreenATM();
+        screenATM.setHeight(24);
+        screenATM.setWidth(23);
+        screenATM.showInDisplay();
 
     }
 }
